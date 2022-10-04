@@ -1,8 +1,8 @@
-# project
+# Preact Exercise
 
 ## Tutorials
-*[Codecademy](https://www.codecademy.com/learn/react-101)
-*[Net Ninja](https://www.youtube.com/watch?v=j942wKiXFu8&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=1)
+- [Codecademy](https://www.codecademy.com/learn/react-101)
+- [Net Ninja](https://www.youtube.com/watch?v=j942wKiXFu8&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=1)
 
 ## CLI Commands
 
