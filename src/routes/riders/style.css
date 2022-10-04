@@ -1,0 +1,159 @@
+@font-face {
+	font-family: 'MotoGP-Bold';
+	src: url('../../assets/fonts/MotoGPTextWeb-Bold.woff');
+}
+
+@font-face {
+	font-family: 'MotoGP-Regular';
+	src: url('../../assets/fonts/MotoGPTextWeb-Regular.woff');
+}
+
+@font-face {
+	font-family: 'MotoGP-Light';
+	src: url('../../assets/fonts/MotoGPTextWeb-Light.woff2');
+}
+
+.riders {
+	padding: 80px 20px 56px;
+	min-height: 100%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	display: flex;
+}
+
+.ridersTitle {
+	flex: 1 0 100%;
+	display: flex;
+	font-weight: 900;
+	font-size: 20px;
+	padding: 30px 0;
+}
+
+.hero {
+	width: 100%;
+	position: relative;
+}
+
+.rightPanel {
+	display: flex;
+	flex-direction: column;
+	flex: 1 0 65%;
+}
+
+.filters {
+	display: flex;
+	gap: 20px;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	height: 100%;
+	overflow-y: auto;
+	align-content: flex-start;
+}
+
+.container::-webkit-scrollbar {
+	width: .5em;
+}
+
+.container::-webkit-scrollbar-track {
+	background-color: black;
+}
+
+.container::-webkit-scrollbar-thumb {
+	background-color: #c80502;
+}
+
+.rider {
+	position: relative;
+	color: black;
+	text-decoration: none;
+	flex: 0 0 24%;
+	height: 200px;
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid #c80502;
+	background: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.rider:hover .info {
+	opacity: 1;
+}
+
+.info {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	padding: 15px 15px;
+	display: flex;
+	flex-wrap: wrap;
+	color: white;
+	pointer-events: none;
+	background: #000000aa;
+	align-content: flex-end;
+	opacity: 0;
+	transition: opacity .2s ease-in-out;
+}
+
+.name {
+	flex: 1 0 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.firstName {
+	font-family: 'MotoGP-Regular';
+	width: 100%;
+	font-style: italic;
+	line-height: .8;
+}
+
+.lastName {
+	font-family: 'MotoGP-Bold';
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 1.2;
+}
+
+.number {
+	font-family: 'MotoGP-Bold';
+	flex: 1 0 20%;
+	font-size: 40px;
+	font-style: italic;
+	font-weight: 900;
+	text-align: right;
+	line-height: 1;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.bikeName {
+	font-family: 'MotoGP-Regular';
+	padding-top: 5px;
+	flex: 1 0 100%;
+	font-size: 12px;
+}
+
+.resetButton {
+	font-family: 'MotoGP-Bold';
+	background: #c80502;
+	color: white;
+	font-size: 22px;
+	width: 100px;
+	height: 50px;
+	border: 1px solid white;
+	cursor: pointer;
+	line-height: 1;
+}

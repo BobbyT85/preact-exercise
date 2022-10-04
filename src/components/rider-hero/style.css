@@ -1,0 +1,128 @@
+@font-face {
+	font-family: 'MotoGP-Bold';
+	src: url('../../assets/fonts/MotoGPTextWeb-Bold.woff');
+}
+
+@font-face {
+	font-family: 'MotoGP-Regular';
+	src: url('../../assets/fonts/MotoGPTextWeb-Regular.woff');
+}
+
+@font-face {
+	font-family: 'MotoGP-Light';
+	src: url('../../assets/fonts/MotoGPTextWeb-Light.woff2');
+}
+
+.heroRider {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-position: -120px 0;
+	background-repeat: no-repeat;
+	background-size: contain;
+    text-shadow: 0 0 10px #000, 0 0 10px #000, 0 0 10px #000;
+	flex: 1 0 35%;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+a {
+	text-decoration: none;
+}
+
+.number {
+	/* right: 0; */
+	position: absolute;
+	top: 0;
+	width: 250px;
+	height: 150px;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-bottom: 30px;
+}
+
+.heroInfo {
+	bottom: 0;
+	width: 100%;
+	padding: 30px 50px;
+	/* color: #d4fe01; */
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.heroNumber {
+	position: absolute;
+	top: 0;
+	font-family: 'MotoGP-Bold';
+	font-size: 150px;
+	/* font-size: 150px; */
+	font-style: italic;
+	font-weight: 900;
+	padding: 0 50px;
+	color: white;
+
+}
+
+.heroNickname {
+	font-family: 'MotoGP-Bold';
+	font-size: 50px;
+	/* font-size: 150px; */
+	font-style: italic;
+	font-weight: 900;
+	padding-left: 20px;
+	color: #666;
+	line-height: 1.5;
+}
+
+.heroAge {
+	font-family: 'MotoGP-Light';
+	font-size: 20px;
+	font-weight: 700;
+	text-align: right;
+	line-height: 1;
+	margin-bottom: 20px;
+}
+.heroName {
+	font-family: 'MotoGP-Regular';
+	font-size: 40px;
+	font-style: italic;
+	line-height: 0.2;
+}
+
+.heroSurname {
+	font-family: 'MotoGP-Bold';
+	font-size: 50px;
+	font-weight: 900;
+	line-height: 1.5;
+	text-transform: uppercase;
+}
+
+.heroClass {
+	font-family: 'MotoGP-Bold';
+	font-size: 20px;
+	font-weight: 700;
+	text-align: right;
+}
+
+.heroBikeName {
+	font-family: 'MotoGP-Light';
+	font-size: 16px;
+	font-weight: 700;
+	text-align: right;
+}
+
+.flag {
+	right: 0;
+	top: 0;
+	width: 100px !important;
+	height: 50px !important;
+	background-position: right !important;
+	margin-bottom: 20px;
+}

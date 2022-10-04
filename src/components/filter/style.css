@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'MotoGP-Bold';
+	src: url('../../assets/fonts/MotoGPTextWeb-Bold.woff');
+}
+
+@font-face {
+	font-family: 'MotoGP-Regular';
+	src: url('../../assets/fonts/MotoGPTextWeb-Regular.woff');
+}
+
+@font-face {
+	font-family: 'MotoGP-Light';
+	src: url('../../assets/fonts/MotoGPTextWeb-Light.woff2');
+}
+
+.filter {
+	padding-bottom: 20px;
+	font-family: 'MotoGP-Bold';
+	color: white;
+	font-size: 22px;
+	display: flex;
+	flex-direction: column;
+	max-width: 150px;
+}
+
+.filter select {
+	font-family: 'MotoGP-Bold';
+}
