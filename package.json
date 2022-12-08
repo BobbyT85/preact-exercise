@@ -29,6 +29,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
     "flag-icons": "^6.6.6",
+    "json-server": "^0.17.1",
     "preact": "^10.3.2",
     "preact-render-to-string": "^5.1.4",
     "preact-router": "^3.2.1",
